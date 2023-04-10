@@ -85,3 +85,39 @@ where,
 
 **sep** is used to specify the separator between multiple variables displayed using a single print statement
 
+**Type Conversion in Python**
+When we perform any operation on variables of different datatypes, the data of one variable will be converted to a higher datatype among the two variables and the operation is completed. This conversion is done by interpreter automatically and it is known as implicit type conversion. But Python does not support implicit type conversion and it will throw an error.
+
+**Example**:
+num1=10
+num2="20"
+result=num1+num2
+print(result)
+
+**Output**:
+Traceback (most recent call last):
+  File "D:\Neon\Deepu\src\test.py", line 3, in <module>
+    result=num1+num2
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+If we have to avoid this, then we have to explicitly convert the datatype of one variable into the required datatype to complete the operation. This is known as **explicit type conversion**.
+
+**Example**:
+num1=10
+num2="20"
+result=num1+int(num2)
+print(result)
+
+**Output**:
+30
+
+**Note**:
+Programming languages define their own rules for implicit and explicit conversions. These rules do change from language to language.
+
+Similarly, one has to be careful in explicit conversions as well. For example,
+
+1. Converting a floating point value to integer would result in loss of decimal point values
+
+2. A larger data type if converted to smaller data type will result in loss of data as the number will be truncated
+
+
