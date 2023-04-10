@@ -15,3 +15,17 @@
 7. **Python is interactive**: Python users are provided a command prompt where they can interact directly with the interpreter to write programs.
 
 8. **Database connectivity**: Python provides interfaces required to connect to all major databases like Oracle, MySQL, PostgreSQL and others.
+
+**Identifiers**:
+
+In Python, variables, functions, classes, modules and objects are identified using a name known as an identifier. An identifier can start with an uppercase or lowercase character or an underscore (_) followed by any number of underscores, letters and digits. All identifiers in Python are case sensitive.
+
+Example: weight=10
+
+In the above example, weight is an identifier.
+
+**Keywords**:
+
+Keywords are the **reserved words** in Python. So, keywords cannot be used as identifiers or to name variables and functions. Few of the keywords are listed below.
+
+Example: if, else, elif, for, where, break, continue
