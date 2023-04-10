@@ -60,3 +60,28 @@ In the above example, weight is the container holding the value 10  which can ch
 **Python is a dynamically typed language**!
 
 In the above example(weight=10), no datatype was mentioned at the time of declaring variable. In Python, the datatype of a variable is decided automatically at the time of execution based on the value assigned to it. This is called as **dynamic typing**.
+
+**The input() function**:
+Python provides the **input()** built-in function to read an input from the user using the standard input device (i.e. keyboard). The input() function always returns string data irrespective of the type of data entered through the keyboard.
+
+**Syntax**: var_name = input([“interactive statement”])
+
+where,
+
+**var_name** is the variable assigned with the string value which is read using input method.
+
+**Interactive statement** is the statement displayed to the user expecting the response from them
+
+**The print() function**:
+Python provides the **print()** built-in function to display the output onto the standard output device (i.e. Monitor)
+
+**Syntax**: print(“var_name1, var_name2, …”, [end=”value1”, sep=”value2”])
+
+where,
+
+**var_name1**, **var_name2** are the variable names or the literals you want to print or output
+
+**end** is used to specify the separator between two print statements which is ‘\n’ by default
+
+**sep** is used to specify the separator between multiple variables displayed using a single print statement
+
