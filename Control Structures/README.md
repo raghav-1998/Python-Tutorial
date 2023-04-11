@@ -71,8 +71,8 @@ A loop within a loop is known as a nested loop.
 
 The flow inside looping statements are controlled using the looping control statements like **pass**, **break** and **continue**.
 
-When we want to stop a loop or break out of it, we can use the **break** statement.
+1. When we want to stop a loop or break out of it, we can use the **break** statement.
 
-When we want to skip the remaining statements in the current loop and continue with the next iteration, we can use **continue** statement.
+2. When we want to skip the remaining statements in the current loop and continue with the next iteration, we can use **continue** statement.
 
-In Python, **pass** is a null statement which is used to do create empty blocks. When **pass** is executed, it results in no-operation and the control will move to the next statement applicable. 
+3. In Python, **pass** is a null statement which is used to do create empty blocks. When **pass** is executed, it results in no-operation and the control will move to the next statement applicable. 
