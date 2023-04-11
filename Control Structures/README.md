@@ -39,3 +39,29 @@ An **if** statement within another **if** statement is known as **nested if stat
 ![image](https://dotnettutorials.net/wp-content/uploads/2021/07/word-image-192.png)
 
 
+
+**Looping Statements**:
+Looping statements are used to execute the same block of code multiple times in Python based on the test condition
+
+
+1. **while loop**:
+
+The **while loop** is used to execute a piece of code as long as the test condition is **True**. The while loop is preferred whenever the **number of iterations is not known**.
+
+Syntax:
+
+![image](https://pynative.com/wp-content/uploads/2021/06/while-loop-in-python.png)
+
+2. **for loop**:
+
+In Python, the **for** loop allows the loop to run over a **specific sequence of values**. In other words, for every value in the sequence, the loop runs once. Thus, we can avoid **infinite loops** by using a for loop.
+
+Syntax:
+
+![image](https://pynative.com/wp-content/uploads/2021/06/for-loop-in-python.png)
+
+3. **Nested Loop**:
+
+A loop within a loop is known as a nested loop.
+
+![image](https://pynative.com/wp-content/uploads/2021/06/python-nested-loop.png)
