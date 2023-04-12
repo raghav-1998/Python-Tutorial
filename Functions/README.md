@@ -4,9 +4,11 @@
 
 **Syntax**:
 
-def function_name([arg1,...,argn]): 
+def function_name([arg1,...,argn]):
+
     #statements 
     [return value] 
+    
 variable_name = function_name([val1,...,valn])
 
 Note: Anything enclosed in [ ] (square bracket) is optional.
